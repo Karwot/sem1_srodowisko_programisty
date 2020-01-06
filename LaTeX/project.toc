@@ -1,0 +1,10 @@
+\contentsline {chapter}{\numberline {1}Wst\IeC {\k e}p}{}{chapter.1}
+\contentsline {section}{\numberline {1.1}Czym jest web development?}{}{section.1.1}
+\contentsline {section}{\numberline {1.2}Historia web developmentu}{}{section.1.2}
+\contentsline {chapter}{\numberline {2}Web development wsp\IeC {\'o}\IeC {\l }cze\IeC {\'s}nie}{}{chapter.2}
+\contentsline {section}{\numberline {2.1}Front-end}{}{section.2.1}
+\contentsline {section}{\numberline {2.2}Back-end}{}{section.2.2}
+\contentsline {section}{\numberline {2.3}Trendy w 2019 i 2020 roku}{}{section.2.3}
+\contentsline {chapter}{\numberline {3}Kim jest web developer?}{}{chapter.3}
+\contentsline {section}{\numberline {3.1}Kto mo\IeC {\.z}e zosta\IeC {\'c} web developerem?}{}{section.3.1}
+\contentsline {section}{\numberline {3.2}Czym zajmuje si\IeC {\k e} web developer}{}{section.3.2}
