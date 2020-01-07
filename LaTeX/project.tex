@@ -3,9 +3,11 @@
 \usepackage{polski}
 \usepackage[utf8]{inputenc}
 \usepackage[unicode]{hyperref}
-
+%\usepackage{bchart}
 \usepackage{graphicx}
 \graphicspath{ { . } }
+
+\usepackage{indentfirst}
 
 \usepackage{url,apacite}
 \bibliographystyle{apacite}
@@ -16,7 +18,6 @@
 \author{Kacper Karwot}
 
 \begin{document}
- 	\pagenumbering{gobble}
 	\maketitle
 	\tableofcontents
 	\newpage
@@ -28,12 +29,15 @@
  	\newline
  	W większych organizacjach i biznesach, zespoły web developerskie mogą liczyć nawet setki osób i pracować według takich metodologii jak Agile podczas tworzenia produktu. Przy mniejszych projektach wystarczający może być jeden stały lub kontraktowy pracownik, ewentualnie pomocnicy specjalizujący się w grafice lub technicy IT. 
 	\newline
+	\begin{center}
 	Wyróżniamy trzy rodzaje specjalizacji web developerów:
+	
 	\begin{itemize}
 	\item[--] \textbf{front-end} developer,
 	\item[--] \textbf{back-end} developer,
 	\item[--] \textbf{full-stack} developer
  	\end{itemize}
+ 	\end{center}
  	
  	\cite{wiki:1}
  	
@@ -69,7 +73,16 @@
 	\section{Back-end}
 	\newpage
 	\section{Trendy w 2019 i 2020 roku}
+	\subsection{Frontend}
 
+%	 \begin{bchart}[max=100, unit=\%]
+ %\bcbar[label={tt DP}, text=BNC,
+ %color=white]{49}
+ %\bcbar[text=CHILDES, color=gray!10]{35.58}
+%\bcbar[text=BEE, color=gray!50]{80}
+ %\bcbar[text=AMEX, color=gray!80]{100}
+ %\bcxlabel{\% without CRs}
+ %\end{bchart}
 
 	\newpage
 	\chapter{Kim jest web developer?}
@@ -77,6 +90,7 @@
 	\newpage
 	\section{Czym zajmuje się web developer}
 
+	\listoffigures
 	\bibliography{b.bib}
 
 \end{document}
