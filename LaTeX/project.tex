@@ -4,6 +4,9 @@
 \usepackage[utf8]{inputenc}
 \usepackage[unicode]{hyperref}
 
+\usepackage{graphicx}
+\graphicspath{ { . } }
+
 \usepackage{url,apacite}
 \bibliographystyle{apacite}
 
@@ -15,6 +18,7 @@
 \begin{document}
  	\pagenumbering{gobble}
 	\maketitle
+	\tableofcontents
 	\newpage
 	\chapter{Wstęp}
 	\section{Czym jest web development?}
@@ -32,7 +36,6 @@
  	\end{itemize}
  	
  	\cite{wiki:1}
- 	\bibliography{b.bib}
  	
  	\newpage
 	\section{Historia web developmentu}
@@ -54,6 +57,10 @@
 	się światowym standardem, implementowanym w ten sam sposób na całym świecie. W ten sposób, w 1994 roku powstało
 	\textbf{World Wide Web Consortium (W3c)} jako miejsce osiągnięcia konsensusu w sprawie specyfikacji i wytycznych, aby upewnić
 	się, że sieć działa dla wszystkich i rozwija się w sposób odpowiedzialny.
+	\newline
+	\includegraphics[width=\textwidth]{timeline.jpg}
+	\newline
+	\cite{history}
 	
 	\newpage 
 	\chapter{Web development współcześnie}
@@ -70,5 +77,6 @@
 	\newpage
 	\section{Czym zajmuje się web developer}
 
-\tableofcontents
+	\bibliography{b.bib}
+
 \end{document}
