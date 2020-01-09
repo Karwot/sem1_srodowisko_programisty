@@ -1,0 +1,34 @@
+.kontakt-list {
+width: 200px;
+margin-left: auto;
+margin-right: auto;
+line-height: 1.5rem;
+}
+
+.kontakt-list>h3 {
+text-align: center;
+}
+
+.kontakt {
+border: 1px solid black;
+padding: 10px;
+background: tan;
+}
+
+div.kontakt>span {
+display: block;
+}
+
+span.imie {
+border-bottom: 1px solid black;
+border-top: 1px solid black;
+font-size: 16px;
+font-weight: 900;
+color: #12c;
+}
+
+span.mail {
+margin-top: 10px;
+font-style: italic;
+color:#f53;
+}
