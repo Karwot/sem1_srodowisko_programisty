@@ -5,12 +5,14 @@ box-sizing: border-box;
 }
 
 nav {
-background: #aca;
+background: #eea;
 width: 100%;
-position: sticky;
+position: sticky; /* fixed? */
 top:0;
 padding: 15px;
 z-index:999;
+font-weight: 900;
+font-size: 1.5em;
 }
 
 main {
