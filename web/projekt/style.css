@@ -1,3 +1,7 @@
+@import url('https://fonts.googleapis.com/css?family=Luckiest+Guy&display=swap');
+
+
+
 * {
     box-sizing: border-box;
     padding: 0;
@@ -30,7 +34,8 @@ nav, footer, main {
 }
 
 main {
-    background: #b5ca8d;
+    /*background: #b5ca8d;*/
+    background: #bbcb9c;
     min-height: 80vh;
     padding: 2em;
 }
@@ -63,6 +68,7 @@ width: 100vw;
 ul > li {
     background: #222e50;
     padding: 1em 3em;
+    border-bottom: 2px solid #222e50;
 }
 
 ul > li > a {
@@ -71,8 +77,45 @@ ul > li > a {
     text-transform: capitalize;
     letter-spacing: 5px;
     color: #fff;
+    font-weight: 900;
+    text-shadow:
+       3px 3px 0 #000,
+     -1px -1px 0 #000,  
+      1px -1px 0 #000,
+      -1px 1px 0 #000,
+       1px 1px 0 #000;
+       box-sizing: border-box;
+
+}
+
+ul > li:hover {
+    border-bottom: 2px solid #fff;
+}
+
+address > a {
+    text-decoration: none;
+    color: inherit;
+    font-style: initial;
+    font-family: verdana;
+    letter-spacing: 3px;
+}
+
+address > a:hover {
+    text-decoration: underline;
 }
 
 .nobg {
     background: none;
+}
+
+.home-title {
+    background-image: url(math.jpg);
+    background-size: cover;
+    background-clip: text;
+    -webkit-background-clip: text;
+    color: transparent;
+    font-size: 12vh;
+    font-family: 'Luckiest Guy', 'Comic Sans MS', cursive;
+    text-align: center;
+    user-select: none;
 }
