@@ -12,16 +12,16 @@
     <nav>
         <ul>
             <li>
-                <a href="index.php"> Strona główna</a>
+                <a href="index"> Strona główna</a>
             </li>
             <li>
-                <a href="about.php"> O analizie</a>
+                <a href="about"> O analizie</a>
             </li>
             <li>
-                <a href="#"> Kalkulator</a>
+                <a href="calc"> Kalkulator</a>
             </li>
             <li>
-                <a href="#"> Autor</a>
+                <a href="credits"> Autor</a>
             </li>
         </ul>
     </nav>

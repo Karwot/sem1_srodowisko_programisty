@@ -14,6 +14,10 @@ Duis eget eleifend magna, at auctor diam. Aenean et tellus magna. Etiam accumsan
 </p>
 </section>
 <section class="about-sec">
+Duis eget eleifend magna, at auctor diam. Aenean et tellus magna. Etiam accumsan nisi ut augue lacinia aliquam. In consequat risus quis risus malesuada iaculis. Aenean sit amet sollicitudin ante. Donec vel eros felis. Mauris tempus scelerisque lectus, ut sagittis quam faucibus sit amet. Cras vulputate elit id ipsum laoreet blandit. Integer rhoncus semper ante, quis bibendum nunc ullamcorper quis. Aliquam erat volutpat. 
+
+</section>
+<section class="about-sec">
 2
 
 </section>
