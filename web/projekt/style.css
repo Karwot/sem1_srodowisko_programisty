@@ -38,6 +38,7 @@ main {
     background: #bbcb9c;
     padding: 2em;
     min-height: 82vh;
+    animation: appear 1s;
 }
 
 main > * {
@@ -130,11 +131,14 @@ address > a:hover {
     text-align: center;
     user-select: none;
     letter-spacing: 8px;
-
-
     /*-webkit-mask-image: linear-gradient(-75deg, rgba(0,0,0,.8) 30%, #000 50%, rgba(0,0,0,.8) 70%);
     -webkit-mask-size: 200%;
     animation: shine 2s linear infinite; */
+}
+
+@keyframes appear {
+    from {opacity: 0%;}
+    to {opacity: 100%;}
 }
 
 /*@keyframes shine {
