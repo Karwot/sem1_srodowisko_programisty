@@ -12,10 +12,10 @@
     <nav>
         <ul>
             <li>
-                <a href="#"> Strona główna</a>
+                <a href="index.php"> Strona główna</a>
             </li>
             <li>
-                <a href="#"> O analizie</a>
+                <a href="about.php"> O analizie</a>
             </li>
             <li>
                 <a href="#"> Kalkulator</a>

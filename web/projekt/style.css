@@ -74,6 +74,8 @@ ul > li {
     padding: 1em 3em;
     border-bottom: 2px solid #222e50;
     margin: 0px 1em;
+    box-shadow: 4px 4px 0px -1px #fff;
+    transition: 0.3s;
 }
 
 ul > li > a {
@@ -90,11 +92,13 @@ ul > li > a {
       -1px 1px 0 #000,
        1px 1px 0 #000;
        box-sizing: border-box;
-
 }
 
 ul > li:hover {
-    border-bottom: 2px solid #fff;
+   /* border-bottom: 2px solid #fff;*/
+    box-shadow: 5px 5px 0px 1px #fff;
+    text-decoration: underline;
+    text-decoration-color: #fff;
 }
 
 address > a {
@@ -128,10 +132,35 @@ address > a:hover {
 
     /*-webkit-mask-image: linear-gradient(-75deg, rgba(0,0,0,.8) 30%, #000 50%, rgba(0,0,0,.8) 70%);
     -webkit-mask-size: 200%;
-    animation: shine 2s linear infinite;
+    animation: shine 2s linear infinite; */
 }
 
-@keyframes shine {
+/*@keyframes shine {
   from { -webkit-mask-position: 150%; }
   to { -webkit-mask-position: -50%; }
 }*/
+
+
+.about-sec {
+    padding: 2em;
+    min-height: 100%;
+    min-width: 25%;
+    max-width: 50%;
+    color: #222e50;
+    text-align: justify;
+    box-shadow: 10px 15px 0px 0px #828975;
+    text-shadow: 1px 1px #fff;
+    text-indent: 2em;
+}
+
+.about-sec > h2 {
+    text-align: center;
+    padding-bottom: 1em;
+    text-shadow: 10px 15px 0px 0px #000;
+}
+
+p:first-letter {
+    font-weight: 900;
+    font-size: 1.5em;
+    font-family: Georgia, serif;
+}
