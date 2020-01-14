@@ -1,6 +1,6 @@
 <!doctype html>
 
-<html>
+<html lang="pl">
 <head>
     <META charset="UTF-8">
     <title> Projekt </title>
@@ -12,16 +12,16 @@
     <nav>
         <ul>
             <li>
-                <a href="#"> Main</a>
+                <a href="#"> Strona główna</a>
             </li>
             <li>
-                <a href="#"> About</a>
+                <a href="#"> O analizie</a>
             </li>
             <li>
-                <a href="#"> Calculator</a>
+                <a href="#"> Kalkulator</a>
             </li>
             <li>
-                <a href="#"> Credits</a>
+                <a href="#"> Autor</a>
             </li>
         </ul>
     </nav>

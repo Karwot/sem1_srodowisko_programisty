@@ -10,23 +10,25 @@
 
 html {
     max-width: 100% !important;
-    background: #2a4849;
+    background: #bbcb9c;
 }
 
 .container {
    display: grid;
-    grid-template-columns: auto auto auto;
+    grid-template-columns: auto 1fr auto;
     grid-template-rows: repeat(3, auto);
     font-family: verdana;
 }
 
-nav, section,footer {
+section,footer {
     background: #aaa;
     padding: 1em 0;
 }
 
 nav {
-    background: #426b69;
+    background:none;
+    position: sticky;
+    top: 0;
 }
 
 nav, footer, main {
@@ -36,12 +38,13 @@ nav, footer, main {
 main {
     /*background: #b5ca8d;*/
     background: #bbcb9c;
-    min-height: 80vh;
     padding: 2em;
+    min-height: 82vh;
 }
 
 main > * {
-    background: #ccddc2;
+   /* background: #ccddc2;*/
+    background: #ced8b9;
 }
 
 footer {
@@ -62,13 +65,15 @@ display: flex;
 align-items: center;
 justify-content: space-evenly;
 flex-wrap: wrap;
-width: 100vw;
+padding: 1em;
+background: #828975;
 } 
 
 ul > li {
     background: #222e50;
     padding: 1em 3em;
     border-bottom: 2px solid #222e50;
+    margin: 0px 1em;
 }
 
 ul > li > a {
@@ -114,8 +119,19 @@ address > a:hover {
     background-clip: text;
     -webkit-background-clip: text;
     color: transparent;
-    font-size: 12vh;
+    font-size: 6em;
     font-family: 'Luckiest Guy', 'Comic Sans MS', cursive;
     text-align: center;
     user-select: none;
+    letter-spacing: 8px;
+
+
+    /*-webkit-mask-image: linear-gradient(-75deg, rgba(0,0,0,.8) 30%, #000 50%, rgba(0,0,0,.8) 70%);
+    -webkit-mask-size: 200%;
+    animation: shine 2s linear infinite;
 }
+
+@keyframes shine {
+  from { -webkit-mask-position: 150%; }
+  to { -webkit-mask-position: -50%; }
+}*/
