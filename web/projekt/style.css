@@ -120,6 +120,11 @@ address > a:hover {
     background: none;
 }
 
+section.nobg {
+    padding: 0;
+    margin-bottom: 3em;
+}
+
 .home-title {
     background-image: url(math.jpg);
     background-size: cover;
@@ -149,7 +154,8 @@ address > a:hover {
 
 .about-sec {
     padding: 2em;
-    min-height: 100%;
+    /*min-height: 100%; !!! */
+    min-height: 80vh;
     min-width: 25%;
     max-width: 50%;
     color: #222e50;
@@ -157,6 +163,11 @@ address > a:hover {
     box-shadow: 10px 15px 0px 0px #828975;
     text-shadow: 1px 1px #fff;
     text-indent: 2em;
+}
+
+.about-sec > h1 {
+    text-indent: 0;
+    text-align: center;
 }
 
 .about-sec > h2 {
@@ -169,4 +180,41 @@ p:first-letter {
     font-weight: 900;
     font-size: 1.5em;
     font-family: Georgia, serif;
+}
+
+input[type='number']
+{
+    margin-top: 1em;
+    border: none;
+    font-size: 1.5em;
+    width: 1em;
+    text-align: center;
+    background: #bbcb9c;
+    box-shadow: 1px 2px 0px 0px #828975;
+    transition: 0.5s;
+
+    /*mozilla*/
+    -moz-appearance:textfield;
+}
+
+input[type='number']:focus{
+    width: 1.5em;
+    color: transparent;
+}
+
+/* chrome safari edge opera */
+    
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0; 
+}
+
+.calc {
+    font-size: 1.5em;
+    text-align: center;
+}
+
+.calc > div {
+
 }
