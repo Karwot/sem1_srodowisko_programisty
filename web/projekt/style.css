@@ -8,7 +8,7 @@
 
 html {
     max-width: 100% !important;
-    background: #bbcb9c;
+/*    background: #bbcb9c;*/
 }
 
 .container {
@@ -35,7 +35,8 @@ nav, footer, main {
 
 main {
     /*background: #b5ca8d;*/
-    background: #bbcb9c;
+    /*background: #bbcb9c;*/
+    background: #f5f5f5;
     padding: 2em;
     min-height: 82vh;
     animation: appear 1s;
@@ -43,12 +44,23 @@ main {
 
 main > * {
    /* background: #ccddc2;*/
-    background: #ced8b9;
+    /*background: #ced8b9;*/
+    border: 2px solid #269ccc;
+    background: #e5e5e5;
+    color: #575757;
+    box-shadow: 10px 15px 0px 0px #269ccc;
 }
 
 footer {
-    background: #2a4849;
+    /*background: #2a4849;*/
+    background: #269ccc;
     color: white;
+    text-shadow:
+    3px 3px 0 #7b7b7b,
+  -1px -1px 0 #7b7b7b,  
+   1px -1px 0 #7b7b7b,
+   -1px 1px 0 #7b7b7b,
+    1px 1px 0 #7b7b7b;
 }
 
 .container > * {
@@ -69,39 +81,40 @@ align-items: center;
 justify-content: space-evenly;
 flex-wrap: wrap;
 padding: 1em;
-background: #828975;
+/*background: #828975;*/
+background: #fff;
+box-shadow: 2px 2px 2px #c7c7c7;
+width: 100%;
 } 
 
 ul > li {
-    background: #222e50;
+   /* background: #222e50;*/
+   background: #269ccc;
     padding: 1em 3em;
-    border-bottom: 2px solid #222e50;
+    /*border-bottom: 2px solid #222e50;*/
     margin: 0px 1em;
-    box-shadow: 4px 4px 0px -1px #fff;
+    box-shadow: 5px 5px 0px 0px #9ed2c5;
     transition: 0.3s;
 }
 
 ul > li > a {
     text-decoration: none;
     color: inherit;
-    text-transform: capitalize;
     letter-spacing: 5px;
     color: #fff;
     font-weight: 900;
-    text-shadow:
-       3px 3px 0 #000,
-     -1px -1px 0 #000,  
-      1px -1px 0 #000,
-      -1px 1px 0 #000,
-       1px 1px 0 #000;
-       box-sizing: border-box;
+    /*text-shadow:
+    3px 3px 0 #9ed2c5,
+    -1px -1px 0 #9ed2c5,  
+    1px -1px 0 #9ed2c5,
+    -1px 1px 0 #9ed2c5,
+    1px 1px 0 #9ed2c5;*/
+    box-sizing: border-box;
 }
 
-ul > li:hover {
+ul > li:hover, #resultBtn:hover {
    /* border-bottom: 2px solid #fff;*/
-    box-shadow: 5px 5px 0px 1px #fff;
-    text-decoration: underline;
-    text-decoration-color: #fff;
+    box-shadow: 7px 7px 0px 1px #9ed2c5;
 }
 
 address > a {
@@ -136,6 +149,7 @@ section.nobg {
     text-align: center;
     user-select: none;
     letter-spacing: 8px;
+    padding: 0.25em;
     /*-webkit-mask-image: linear-gradient(-75deg, rgba(0,0,0,.8) 30%, #000 50%, rgba(0,0,0,.8) 70%);
     -webkit-mask-size: 200%;
     animation: shine 2s linear infinite; */
@@ -160,9 +174,7 @@ section.nobg {
     max-width: 50%;
     color: #222e50;
     text-align: justify;
-    box-shadow: 10px 15px 0px 0px #828975;
     text-shadow: 1px 1px #fff;
-    text-indent: 2em;
 }
 
 .about-sec > h1 {
@@ -176,7 +188,11 @@ section.nobg {
     text-shadow: 10px 15px 0px 0px #000;
 }
 
-p:first-letter {
+.about-art {
+    text-indent: 2em;
+}
+
+.about-art > p:first-letter {
     font-weight: 900;
     font-size: 1.5em;
     font-family: Georgia, serif;
@@ -189,16 +205,24 @@ input[type='number']
     font-size: 1.5em;
     width: 1em;
     text-align: center;
-    background: #bbcb9c;
+    background: #9ed2c5;
     box-shadow: 1px 2px 0px 0px #828975;
     transition: 0.5s;
-
+    /*color: #222e50;*/
+    color: #269ccc;
+    border: 3px solid #269ccc;
     /*mozilla*/
     -moz-appearance:textfield;
 }
 
 input[type='number']:focus{
     width: 1.5em;
+    outline: none;
+    caret-color: transparent;
+}
+
+
+input[type='number']:focus::placeholder {
     color: transparent;
 }
 
@@ -217,4 +241,19 @@ input::-webkit-inner-spin-button {
 
 .calc > div {
 
+}
+
+#resultBtn {
+    padding: 1em;
+    border:none;
+    margin: 2em;
+    color: #fff;
+    font-family: verdana;
+    box-shadow: 5px 5px 0px 0px #9ed2c5;
+    background: #269ccc;
+    letter-spacing: 5px;
+    font-weight: 900;
+    padding: 1em 2em;
+    cursor: pointer;
+    transition: 0.3s;
 }

@@ -2,7 +2,7 @@
     include 'head.php';
 ?>
 
-<section class="about-sec">
+<section class="about-sec about-art">
 <h2>Tytuł artykułu</h2>
 <p>
 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas lobortis diam vitae euismod fringilla. Sed eu turpis nec mi placerat scelerisque eu at sem. Proin metus odio, feugiat ac tincidunt eu, gravida vel metus. Etiam sodales lorem id turpis eleifend gravida a vel felis. Donec dui eros, rutrum in turpis a, vulputate varius justo. Integer in nibh risus. Pellentesque finibus ipsum vel massa placerat dignissim. Integer vulputate sit amet lacus at eleifend.
@@ -13,9 +13,9 @@ Ut a ultrices orci. Curabitur varius neque sit amet feugiat euismod. Sed a nulla
 Duis eget eleifend magna, at auctor diam. Aenean et tellus magna. Etiam accumsan nisi ut augue lacinia aliquam. In consequat risus quis risus malesuada iaculis. Aenean sit amet sollicitudin ante. Donec vel eros felis. Mauris tempus scelerisque lectus, ut sagittis quam faucibus sit amet. Cras vulputate elit id ipsum laoreet blandit. Integer rhoncus semper ante, quis bibendum nunc ullamcorper quis. Aliquam erat volutpat. 
 </p>
 </section>
-<section class="about-sec">
-Duis eget eleifend magna, at auctor diam. Aenean et tellus magna. Etiam accumsan nisi ut augue lacinia aliquam. In consequat risus quis risus malesuada iaculis. Aenean sit amet sollicitudin ante. Donec vel eros felis. Mauris tempus scelerisque lectus, ut sagittis quam faucibus sit amet. Cras vulputate elit id ipsum laoreet blandit. Integer rhoncus semper ante, quis bibendum nunc ullamcorper quis. Aliquam erat volutpat. 
-
+<section class="about-sec about-art">
+<p>Duis eget eleifend magna, at auctor diam. Aenean et tellus magna. Etiam accumsan nisi ut augue lacinia aliquam. In consequat risus quis risus malesuada iaculis. Aenean sit amet sollicitudin ante. Donec vel eros felis. Mauris tempus scelerisque lectus, ut sagittis quam faucibus sit amet. Cras vulputate elit id ipsum laoreet blandit. Integer rhoncus semper ante, quis bibendum nunc ullamcorper quis. Aliquam erat volutpat. 
+</p>
 </section>
 <section class="about-sec">
 2

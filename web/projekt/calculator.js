@@ -1,18 +1,39 @@
-const btn = document.querySelector("#resultBtn")
+const btn = document.querySelector("#resultBtn");
 const resultHolder = document.querySelector("#calcResult");
+
 
 //delta < > lub == 0
 
-deltaGTzero = () => {
-    console.log('2 miejsca zerowe')
-}
+handleDelta = (delta, a, b, c) => {
+    console.log(delta);
+    let w = "";
+    let z = "";
 
-deltaLTzero = () => {
-    console.log('brak')
-}
+    let x, x2
 
-deltaEQzero = () => {
-    console.log('1 miejsce zerowe')
+    if(delta>0) {
+        w = "większa niż"
+        z = "funkcja ma dwa miejsca zerowe"
+        x = -b+Math.sqrt(delta)/(2*a)
+        x2 = -b-Math.sqrt(delta)/(2*a)
+    }    
+    else if(delta<0) {
+        w = "mniejsza niż";
+        z = "funkcja nie ma miejsc zerowych"
+        x = -b+Math.sqrt(delta)/(2*a)
+    } else {
+        w = "równa"
+        z = "istnieje jedno miejsce zerowe tej funkcji"
+    }
+    resultHolder.innerHTML = "<p>Delta jest "+ w +" zero. Zatem "+z+".</p>";
+    
+    if(x) 
+        resultHolder.innerHTML += "<p>x = "+x.toFixed(2);
+        if(x2) 
+            resultHolder.innerHTML += "x<sub>2</sub> = "+x2.toFixed(2) + "</p>";
+        else
+            resultHolder.innerHTML += "</p>";
+
 }
 
 // obliczanie delty
@@ -27,17 +48,6 @@ btn.addEventListener('click', calculateDelta = () =>
     let delta = Math.pow(b,2)-(4*a*c)
     console.log(delta)
 
-    if(delta<0) {
-        //brak miejsce zerowych
-        deltaLTzero
-    }
-    else if(delta>0) {
-        deltaGTzero
-    } 
-    else {
-        deltaEQzero
-    }
+    handleDelta(delta, a, b, c);
 
 });
-
-
