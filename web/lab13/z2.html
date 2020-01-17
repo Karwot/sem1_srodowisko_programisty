@@ -1,0 +1,44 @@
+<html>
+<head>
+
+</head>
+<body>
+<meta charset="UTF-8">
+<input type="number" placeholder="waga[kg]" name="waga">
+<input type="number" placeholder="wzrost[cm]" name="wzrost">
+<button id="bmiBtn">oblicz bmi</button>
+
+<div id="result">  </div>
+
+<script>
+
+const bmiBtn = document.querySelector("#bmiBtn");
+
+bmiBtn.addEventListener('click', bmi = () =>
+{
+        const resultHolder = document.querySelector("#result");
+        let weight = document.querySelector("input[name='waga']").value;
+        let height = document.querySelector("input[name='wzrost']").value;
+        height = height/100;
+        let bmiResult = weight/(height*height);
+        let info = "";
+
+        if(bmiResult<18.5)
+                info = "Niedowaga.";
+        else if(bmiResult>=18.5 && bmiResult<25)
+                info = "Waga w normie. Tak trzymaj!";
+        else if(bmiResult>=25 && bmiResult<30)
+                info = "nadwaga :(";
+        else if(bmiResult>=30 && bmiResult <40)
+                info = "otyłość";
+        else if(bmiResult>=40)
+                info = "poważna otyłość";
+
+        resultHolder.innerHTML = "Twoje BMI to:"+bmiResult.toFixed(2)+"<br> "+info;
+
+});
+
+</script>
+
+</body>
+</html>
