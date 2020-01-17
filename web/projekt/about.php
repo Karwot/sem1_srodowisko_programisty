@@ -3,22 +3,45 @@
 ?>
 
 <section class="about-sec about-art">
-<h2>Tytuł artykułu</h2>
-<p>
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas lobortis diam vitae euismod fringilla. Sed eu turpis nec mi placerat scelerisque eu at sem. Proin metus odio, feugiat ac tincidunt eu, gravida vel metus. Etiam sodales lorem id turpis eleifend gravida a vel felis. Donec dui eros, rutrum in turpis a, vulputate varius justo. Integer in nibh risus. Pellentesque finibus ipsum vel massa placerat dignissim. Integer vulputate sit amet lacus at eleifend.
-<p>
-Ut a ultrices orci. Curabitur varius neque sit amet feugiat euismod. Sed a nulla erat. Curabitur hendrerit pulvinar cursus. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Quisque blandit leo turpis, sed dapibus eros viverra vitae. Aliquam eget ex tincidunt, ornare nunc sed, tristique sapien. Etiam vitae massa ut urna malesuada dignissim id malesuada nunc. Phasellus magna massa, porta eget sapien nec, consequat commodo erat. Pellentesque elementum felis in sapien egestas imperdiet. Mauris a mi ut sapien suscipit sollicitudin. Donec id malesuada mauris. Nulla facilisi.
+<h2>Definicja</h2>
+<p>Analiza matematyczna – zespół teorii obejmujący wiele działów matematyki.</p>
+<p>Początkowo analiza matematyczna obejmowała jedynie to, co dzisiaj nazywamy rachunkiem różniczkowym i całkowym. Jej rozwój zainicjowały prace <a href="#">Leibniza</a> i <a href="#">Newtona</a> z początku XVII wieku.
 </p>
-<p>
-Duis eget eleifend magna, at auctor diam. Aenean et tellus magna. Etiam accumsan nisi ut augue lacinia aliquam. In consequat risus quis risus malesuada iaculis. Aenean sit amet sollicitudin ante. Donec vel eros felis. Mauris tempus scelerisque lectus, ut sagittis quam faucibus sit amet. Cras vulputate elit id ipsum laoreet blandit. Integer rhoncus semper ante, quis bibendum nunc ullamcorper quis. Aliquam erat volutpat. 
+<p>Z czasem rachunek różniczkowy i całkowy, ograniczający się wcześniej do kartezjańskich przestrzeni rzeczywistych, objął swoim zakresem inne przestrzenie: przestrzenie zespolone (teoria funkcji holomorficznych), przestrzenie Banacha i Hilberta (wraz z odpowiadającymi im teoriami) obiekty geometryczne o bardziej wymagającej strukturze (np. rozmaitości różniczkowe).
+</p>
+<p>Zaawansowanej analizy matematycznej nie można obecnie uprawiać bez znajomości algebry, topologii (w tym topologii algebraicznej) czy geometrii różniczkowej. 
 </p>
 </section>
 <section class="about-sec about-art">
-<p>Duis eget eleifend magna, at auctor diam. Aenean et tellus magna. Etiam accumsan nisi ut augue lacinia aliquam. In consequat risus quis risus malesuada iaculis. Aenean sit amet sollicitudin ante. Donec vel eros felis. Mauris tempus scelerisque lectus, ut sagittis quam faucibus sit amet. Cras vulputate elit id ipsum laoreet blandit. Integer rhoncus semper ante, quis bibendum nunc ullamcorper quis. Aliquam erat volutpat. 
-</p>
+<h1>Kluczowe odkrycie</h1>
+<p class="m-top">Archimedes użył tzw. metody wyczerpywania do obliczenia powierzchni koła: obliczał powierzchnie wielokątów foremnych z coraz to większą liczbą boków. Jest to pierwszy znany przykład liczenia granicy, jednego z podstawowych pojęć analizy matematycznej.</p>
+
+<img src="archimedes.png" class="m-top">
+
 </section>
 <section class="about-sec">
-2
+
+<h1>Nowe działy matematyki</h1>
+<p class="m-top"> W miarę rozwiązywania kolejnych problemów stawianych przez analizę matematyczną powstawały zupełnie nowe działy matematyki, które dziś wchodzą w skład analizy: </p>
+
+<ul>
+    <li>algebry Banacha i analiza harmoniczna,</li>
+    <li>analiza funkcjonalna,</li>
+    <li>funkcje specjalne,</li>
+    <li>funkcje zmiennej zespolonej (jednej zmiennej),</li>
+    <li>funkcje zespolone wielu zmiennych,</li>
+    <li>rachunek wariacyjny,</li>
+    <li>rozmaitości różniczkowalne,</li>
+    <li>równania całkowe, </li>
+    <li>równania różniczkowe cząstkowe,</li>
+    <li>równania różniczkowe zwyczajne,</li>
+    <li>teoria dystrybucji,</li>
+    <li>teoria form różniczkowych,</li>
+    <li>teoria miary i całki,</li>
+    <li>teoria reprezentacji grup Liego,</li>
+    <li>teoria szeregów ortogonalnych,</li>
+    <li>układy dynamiczne i ergodyczność.</li>
+</ul>
 
 </section>
 

@@ -4,6 +4,16 @@
 
 <section class="about-sec">
 	<h1>Funkcja kwadratowa</h1>
+	<p class="m-top">
+	<b>Funkcją kwadratową</b> nazywamy taką funkcję, we wzorze której:</p>
+	<ul>
+    <li>musi wystąpić x2,</li>
+    <li>może wystąpić x,</li>
+    <li>może wystąpić liczba stała.</li>
+	</ul>
+	<p class="m-top">
+	Funkcja w podstawowej postaci przyjmuje wartość	</p>
+	<p class="formula m-top">f(x) = ax<sup>2</sup>+bx+c</p>
 </section>
 
 <section class="about-sec calc">
@@ -21,7 +31,9 @@
 
 
 <section class="about-sec" id="calcResult">
-
+<p>Podaj wartości argumentów swojej funkcji aby poznać jej właściwości i
+	miejsca zerowe.
+</p>
 </section>
 
 <script type="text/javascript" src="calculator.js"></script>

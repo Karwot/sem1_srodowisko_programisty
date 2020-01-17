@@ -49,6 +49,7 @@ main > * {
     background: #e5e5e5;
     color: #575757;
     box-shadow: 10px 15px 0px 0px #269ccc;
+    font-family: verdana;
 }
 
 footer {
@@ -61,6 +62,11 @@ footer {
    1px -1px 0 #7b7b7b,
    -1px 1px 0 #7b7b7b,
     1px 1px 0 #7b7b7b;
+    box-shadow: 0px -3px 2px #c7c7c7;
+}
+
+img {
+    max-width: 100%;
 }
 
 .container > * {
@@ -74,7 +80,7 @@ main > section {
     margin: 0 20px;
 }
 
-ul {
+nav > ul {
 list-style-type: none;
 display: flex;
 align-items: center;
@@ -87,7 +93,7 @@ box-shadow: 2px 2px 2px #c7c7c7;
 width: 100%;
 } 
 
-ul > li {
+nav > ul > li {
    /* background: #222e50;*/
    background: #269ccc;
     padding: 1em 3em;
@@ -95,9 +101,10 @@ ul > li {
     margin: 0px 1em;
     box-shadow: 5px 5px 0px 0px #9ed2c5;
     transition: 0.3s;
+    border: 2px solid #9ed2c5;
 }
 
-ul > li > a {
+nav > ul > li > a {
     text-decoration: none;
     color: inherit;
     letter-spacing: 5px;
@@ -112,7 +119,7 @@ ul > li > a {
     box-sizing: border-box;
 }
 
-ul > li:hover, #resultBtn:hover {
+nav > ul > li:hover, #resultBtn:hover {
    /* border-bottom: 2px solid #fff;*/
     box-shadow: 7px 7px 0px 1px #9ed2c5;
 }
@@ -169,12 +176,42 @@ section.nobg {
 .about-sec {
     padding: 2em;
     /*min-height: 100%; !!! */
-    min-height: 80vh;
+   /* min-height: 80vh;*/
+   min-height: 100%;
     min-width: 25%;
     max-width: 50%;
     color: #222e50;
     text-align: justify;
-    text-shadow: 1px 1px #fff;
+   /* text-shadow: 1px 1px #fff;*/
+}
+
+.about-sec >  ul {
+    list-style-type: square;
+    line-height: 2em;
+    margin-left: 1em;
+}
+
+.m-top {
+    margin-top: 2em;
+}
+
+.formula {
+    text-align: center;
+    font-style: italic;
+}
+
+.about-sec > p {
+    line-height: 1.5em;
+}
+
+p > a {
+    color: inherit;
+    font-weight: 900;
+    text-decoration: none;
+}
+
+p > a:hover {
+    text-decoration: underline;
 }
 
 .about-sec > h1 {
@@ -192,10 +229,14 @@ section.nobg {
     text-indent: 2em;
 }
 
-.about-art > p:first-letter {
+.about-art > p:first-of-type:first-letter  {
     font-weight: 900;
+    background: #9ed2c5;
+    padding: 1px;
+}
+
+#calcResult > p.formula {
     font-size: 1.5em;
-    font-family: Georgia, serif;
 }
 
 input[type='number']
@@ -206,7 +247,7 @@ input[type='number']
     width: 1em;
     text-align: center;
     background: #9ed2c5;
-    box-shadow: 1px 2px 0px 0px #828975;
+    box-shadow: 5px 5px 0px -1px #9ed2c5, inset 3px 3px 0px 0px #e5e5e5;
     transition: 0.5s;
     /*color: #222e50;*/
     color: #269ccc;
