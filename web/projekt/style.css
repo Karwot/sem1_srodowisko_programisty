@@ -298,3 +298,18 @@ input::-webkit-inner-spin-button {
     cursor: pointer;
     transition: 0.3s;
 }
+
+.center-content {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    text-align: center;
+    min-height: initial;
+}
+
+.contact {
+    padding: 2em;
+    color: #222e50;
+    width: 100%;
+}
