@@ -16,7 +16,7 @@
 <h1>Kluczowe odkrycie</h1>
 <p class="m-top">Archimedes użył tzw. metody wyczerpywania do obliczenia powierzchni koła: obliczał powierzchnie wielokątów foremnych z coraz to większą liczbą boków. Jest to pierwszy znany przykład liczenia granicy, jednego z podstawowych pojęć analizy matematycznej.</p>
 
-<img src="archimedes.png" class="m-top">
+<img src="archimedes.png" alt="metoda wyczerpywania Archimedesa" class="m-top">
 
 </section>
 <section class="about-sec">
